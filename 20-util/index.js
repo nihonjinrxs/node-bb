@@ -13,6 +13,7 @@ setInterval(function () {
 // **********************
 
 const util = require('util');
+// To log these, use NODE_DEBUG=web ...
 const debuglog = util.debuglog('web');
 
 const server = require('http').createServer();

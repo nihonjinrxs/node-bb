@@ -1,3 +1,6 @@
+// process.stdin paused by default, so need to resume
+process.stdin.resume();
+
 const { StringDecoder } = require('string_decoder');
 const decoder = new StringDecoder('utf8');
 

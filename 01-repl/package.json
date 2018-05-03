@@ -1,0 +1,16 @@
+{
+  "name": "01-repl",
+  "version": "1.0.0",
+  "description": "Sample node REPL program",
+  "main": "repl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samer Buna, Ryan Harvey",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "npm": "^6.0.0"
+  }
+}
